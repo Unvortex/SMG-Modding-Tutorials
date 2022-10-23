@@ -1,0 +1,29 @@
+<!-- This template was a modified version sourced from Master Luma, go subscribe! https://www.youtube.com/c/MasterLuma -->
+<wiidisc version="1">
+	<id game="SB4" />
+	<options>
+		<section name="HEADING">
+			<option name="OPTION">
+				<choice name="Enabled">
+					<patch id="[TEMPLATE]" />
+				</choice>
+			</option>
+		</section>
+	</options>
+	<patch id="[TEMPLATE]">
+		<folder external="/[TEMPLATE]/StageData" disc="/StageData" recursive="true" create="true" />
+		<folder external="/[TEMPLATE]/ObjectData" disc="/ObjectData" recursive="true" create="true" />
+		<folder external="/[TEMPLATE]/LocalizeData" disc="/LocalizeData" recursive="true" create="true" />
+		<folder external="/[TEMPLATE]/LocalizeData/UsEnglish" disc="/LocalizeData/UsEnglish" recursive="true" create="true" />
+		<folder external="/[TEMPLATE]/LocalizeData/UsEnglish" disc="/LocalizeData/UsFrench" recursive="true" create="true" />
+		<folder external="/[TEMPLATE]/LocalizeData/UsEnglish" disc="/LocalizeData/UsSpanish" recursive="true" create="true" />
+		<folder external="/[TEMPLATE]/LocalizeData/UsEnglish" disc="/LocalizeData/EuDutch" recursive="true" create="true" />
+		<folder external="/[TEMPLATE]/LocalizeData/UsEnglish" disc="/LocalizeData/EuEnglish" recursive="true" create="true" />
+		<folder external="/[TEMPLATE]/LocalizeData/UsEnglish" disc="/LocalizeData/EuFrench" recursive="true" create="true" />
+		<folder external="/[TEMPLATE]/LocalizeData/UsEnglish" disc="/LocalizeData/EuGerman" recursive="true" create="true" />
+		<folder external="/[TEMPLATE]/LocalizeData/UsEnglish" disc="/LocalizeData/EuSpanish" recursive="true" create="true" />
+		<folder external="/[TEMPLATE]/LocalizeData/UsEnglish" disc="/LocalizeData/EuItalian" recursive="true" create="true" />
+		<folder external="/[TEMPLATE]/LayoutData" disc="/LayoutData" recursive="true" create="true" />
+		<folder external="/[TEMPLATE]/AudioRes" disc="/AudioRes" recursive="true" create="true" />
+	</patch>
+</wiidisc>
